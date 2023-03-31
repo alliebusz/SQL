@@ -1,4 +1,9 @@
-CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, section TEXT, price INTEGER, popularity INTEGER);
+CREATE TABLE store 
+  (id INTEGER PRIMARY KEY, 
+  item TEXT, 
+  section TEXT, 
+  price INTEGER, 
+  popularity INTEGER);
 
 INSERT INTO store VALUES
 (1, "kiwis", "produce", 3.99, 50),
